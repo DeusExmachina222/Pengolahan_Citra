@@ -6,7 +6,7 @@ import pandas as pd
 
 def main():
     st.set_page_config(layout="wide")
-    st.title("Tugas: Thresholding dan Equalization Citra 📸")
+    st.title("Histogram, Thresholding dan Equalization Citra")
     
     # 1. Input satu Citra
     uploaded_file = st.file_uploader("Upload satu Citra (JPG, PNG, BMP)", type=["jpg", "jpeg", "png", "bmp"])
